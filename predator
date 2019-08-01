@@ -1,0 +1,98 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`Welcome to the server  ${client.user.tag}!`);
+});
+
+client.on('message', message => {
+  if (message.content === 'مرحبا') {
+    message.reply('مراحب');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'هلو') {
+    message.reply('هلوات حبي');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'هلو') {
+    message.reply('هلوات حبي');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'السلام عليكم') {
+    message.reply('وعليكم السلام');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'بروديتر') {
+    message.reply('بروديتر مشغول ثواني و يرجعلك حبي ♥');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'احبك') {
+    message.reply('اموت عليك <3');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'دولمه') {
+    message.reply('ثواني و توصلك :joy:');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'بليز') {
+    message.reply('لا');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'تعال خاص') {
+    message.reply('أصلاً أهلي وصوني ما احكي خاص مع حد اشنو عيب :joy: ');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'المدمر') {
+    message.reply('المدمر مشغول حاليا :wink:');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'صدق') {
+    message.reply('ايه -_-');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === ':cry:') {
+    message.reply('لاي لاي لاي لاي :dancer: :dancer:');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'اسكت') {
+    message.reply('	ما الك دخل فيني');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'طوكيو') {
+    message.reply('	كاعد تتكلم عن العسل :heart_eyes: ');
+  }
+});
+
+client.on('message', message => {
+  if (message.content === 'دلاع') {
+    message.reply('	راه غالي :joy: ');
+  }
+});
+
+client.login('NjA2MTM3NjY2NTM0Mzc1NDI1.XUGw6A.AXNdDkhqJi1EUc_AjwwGmIb-Pes');
